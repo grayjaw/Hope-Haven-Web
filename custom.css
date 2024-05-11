@@ -1,0 +1,37 @@
+/** Read more on index page styles **/
+
+
+#more {display: none;}
+
+#myBtn {color: white;}
+
+
+/* row and colomn at course page */
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column-sub {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row-sub:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.min-col {
+  margin-top: 40px;
+}
+.min-col h3 {
+  color:#063965;
+  font-style: bold;
+  font-family: 'Bell MT';
+  letter-spacing: 0px;
+}
